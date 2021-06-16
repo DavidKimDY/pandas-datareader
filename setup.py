@@ -13,7 +13,7 @@ def readme():
         return f.read()
 
 
-install_requires = []
+
 with open("./requirements.txt") as f:
     install_requires = f.read().splitlines()
 with open("./requirements-dev.txt") as f:
